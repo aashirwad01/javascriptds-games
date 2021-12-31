@@ -13,7 +13,7 @@ body{
 }
 
 header {
-  margin-top: 8%;
+  margin-top: 3%;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -21,7 +21,7 @@ header {
 .container{
   
   
-  margin:4% 10% 5% 10%;
+  margin:4% 10% 9% 10%;
   
 
   display: flex;
@@ -65,12 +65,10 @@ header:hover{
 }
 
 button:hover{
-  transform: scale(1.5) translateY(-25%)
+  transform: scale(1.5) translateY(-15%)
 }
 
-img:hover{
-  transform: scale(1.1);
-}
+
 
 button{
   border-color: #c16ecf;
@@ -119,6 +117,12 @@ a {
 
 a:hover {
   background:rgba(0,0,0,0.3);
+  transform: scale(1.05);
+}
+
+.social:hover{
+  transform: scale(1.5);
+
 }
 
 .flex-nav > * {
@@ -222,7 +226,7 @@ img:hover{
   }
   
   .card3:hover{
-    transform: scale(1.1) translateY(-60%);
+    transform: scale(1.1) translateY(-10%);
   }
 
   

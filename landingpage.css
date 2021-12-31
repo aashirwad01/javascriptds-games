@@ -32,7 +32,14 @@ html {
   
   a:hover {
     background:rgba(0,0,0,0.3);
+    transform: scale(1.1);
   }
+
+  .social:hover{
+    transform: scale(1.8);
+
+  }
+
 
   .cover{
     
@@ -90,6 +97,13 @@ video{
     background:rgba(247, 65, 65, 0.6);
     border: 0px;
   }
+  #Players:hover{
+    background:rgba(247, 65, 65);
+    border: 0px;
+    transform: scale(1.05);
+  }
+
+
   
   .flex-form > *:last-child {
     border-right: 0;
@@ -138,6 +152,8 @@ video{
     margin-bottom: 17%;
     
 }
+
+
 .flex-nav{
     
     
